@@ -1,8 +1,14 @@
 let petName;
 let petAge;
-let petname = "Baris";
-let petAge = 5;
-console.log(petname);
+
+petName = "Baris";
+petAge = 5;
+
 console.log(petAge);
-const buildingAddress = "Dauksto 9";
-console.log(`My pet is named ${petName} and is ${petAge} years old. He lives in ${buildingAddress} street.`);
+console.log(petAge);
+
+petName = {Prizma};
+petAge = 6;
+
+const buildingAddress = "Daukšos gatvė 9";
+console.log(buildingAddress);
