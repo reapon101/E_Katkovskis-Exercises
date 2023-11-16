@@ -1,11 +1,13 @@
-let numberX = 10;
-let numberY = '20';
-console.log(numberX == numberY); // false
-console.log(numberX === numberY); // false
-console.log(numberX != numberY); // true
-console.log(numberX !== numberY); // true
-console.log(numberX > numberY); // false
-console.log(numberX >= numberY); // false
-console.log(numberX < numberY); // true
-console.log(numberX <= numberY); // true
-console.log((numberX != numberY) ? 'It is true' : 'It is false'); // is is true
+let isFalse = false;
+let isTrue = true;
+console.log(isTrue && isTrue); // true
+console.log(isTrue && isFalse); // false
+console.log(isFalse && isFalse); // false
+console.log(isTrue || isTrue); // true
+console.log(isTrue || isFalse); // true
+console.log(isFalse || isFalse); // false
+console.log(!isTrue); // false
+console.log(!isFalse); // true
+console.log(!isFalse && isTrue); // true
+console.log(!isFalse && isTrue); // true
+console.log(!isFalse || isTrue); // true
