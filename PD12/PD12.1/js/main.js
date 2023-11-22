@@ -7,8 +7,8 @@ let penktadienis = 4;
 
 // Kiek paskaitų turi jis per savaitę?
 let paskaitukiekis = pirmadienis + antradienis + trečiadinis + ketvirtadienis + penktadienis;
-console.log(paskaitukiekis + " paskaitu per savaite");
+console.log(paskaitukiekis + " paskaitų per savaitę");
 
 // Kiek tai sudaro minučių? Viena paskaita trunka 45 minutes.
 let paskaitulaikas = paskaitukiekis * 45;
-console.log(paskaitulaikas + " minuciu");
+console.log(paskaitulaikas + " minučių");
