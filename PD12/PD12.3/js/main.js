@@ -9,4 +9,6 @@ let plytosAukstis = 10;
 let plytosplotas = plytosIlgis * plytosAukstis;
 console.log(plytosplotas);
 
-
+let plytureikes = sienosplotas / plytosplotas;
+let plytoskainuos = plytureikes * plytkaina;
+console.log("PLytu reikes " + plytureikes + " vienetu" + ", kurios kainuos " + plytoskainuos + " Eur");
