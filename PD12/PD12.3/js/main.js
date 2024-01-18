@@ -1,13 +1,13 @@
 // Statybininkams reikia pastatyti siena, kurios ilgis yra 4 metrai, o aukstis 3 metrai (a ir h yra sveikieji skaiciai). Konvertuoju i centimetrus
-let sienosIlgis = 400;
-let sienosAukstis = 300;
+let sienosIlgis = 4;
+let sienosAukstis = 3;
 let plytoskaina = 0.5;
 
 let sienosplotas = sienosIlgis * sienosAukstis;
 console.log(sienosplotas); // 120000
 
-let plytosIlgis = 20;
-let plytosAukstis = 10;
+let plytosIlgis = 0.2;
+let plytosAukstis = 0.1;
 let plytosplotas = plytosIlgis * plytosAukstis;
 console.log(plytosplotas); // 200
 
